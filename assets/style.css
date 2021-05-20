@@ -1,0 +1,84 @@
+*{ margin: 0; padding: 0;}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family: Tahoma;
+}
+
+.frame{
+	width: 400px;
+	height: 400px;
+	background: linear-gradient(225deg, rgba(83,151,97,1) 0%, rgba(59,147,174,1) 100%);
+	box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 30%);
+	border-radius: 2px;
+}
+
+main{
+	background: #fff;
+	box-shadow: 8px 10px 15px 0 rgb(0 0 0 / 20%);
+	border-radius: 3px;
+	width: 300px;
+	height: 260px;
+	margin-top: 70px;
+	margin-left: 50px;
+	position: relative;
+}
+
+main p:first-child{
+	text-align: center;
+	color: #676767;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.dropzone{
+	width: 100px;
+	height: 80px;
+	border: 1px dashed #A4A4A4;
+	border-radius: 3px;
+	cursor: pointer;
+	position: absolute;
+	top: 86px;
+	left: 100px;
+}
+
+input{
+    width: 100%; 
+    height: 100%; 
+    opacity: 0;
+}
+
+main img{
+    position: absolute; 
+    top: 25.5px; 
+    left: 25.5px; }
+
+.btn{
+	height: 40px;
+	width: 140px;
+	background: #6ECE3B;
+	border-radius: 3px;
+	box-shadow: 0 2px 0 0 #498c25;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+	position: absolute;
+	left: 80px;
+	bottom: 24px;
+}
+
+.btn p{
+    position: absolute;
+    top: 12px;
+    left: 37px; }
+
+.btn:hover{
+    box-shadow : 0 2px 0 0 #498c25, 0 2px 10px 0 #6ece3b;
+}
+
